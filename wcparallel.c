@@ -23,6 +23,7 @@ Char Count, Word Count and Line Count
 #include <string.h>
 #include<time.h>
 #define SIZE 20
+
 /*
 Function to find the size of the file
 Ref:https://www.geeksforgeeks.org/c-program-find-size-file/
