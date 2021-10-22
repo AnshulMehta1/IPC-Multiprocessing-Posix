@@ -1,0 +1,24 @@
+typedef struct {
+    sem_t sem_a;
+    sem_t sem_b;
+} Foo;
+
+Foo* fooCreate() {
+  
+}
+
+void first(Foo* obj) {
+ 
+}
+
+void second(Foo* obj) {
+  
+}
+
+void third(Foo* obj) {
+   
+}
+
+void fooFree(Foo* obj) {
+    free(obj);
+}
