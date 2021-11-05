@@ -1,5 +1,6 @@
 /*
 	Least Recently Used Page Replacement Algorithm
+	Page fault evicts the least recently used entity
 */
 #include "stdio.h"
 #include "stdlib.h"
@@ -21,6 +22,7 @@ void print(int frame_size,int frame[])
 
 	printf("\n");
 }
+
 
 int predict(int reference_length, int references[], int page_no ,int frame_size,int frame[], int start)
 {
