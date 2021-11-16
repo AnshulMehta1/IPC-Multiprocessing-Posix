@@ -20,3 +20,15 @@ void addOdd(ll start,ll end){
         }
     }
 }
+
+int main(){
+    ll start=0;
+    ll end=1000000;
+    std ::thread t1(addEven,start,end);
+    std::thread t2(addOdd,start,end);
+    t1.join();
+    t2.join();
+    cout<<"Even Sum is "<<EvenSum<<endl;
+    cout<<"Odd Sum is "<<OddSum<<endl;
+
+}
