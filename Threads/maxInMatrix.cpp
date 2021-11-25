@@ -24,6 +24,7 @@ void maxinArray(int arr[]){
      m1.unlock();
 
 }
+
 // Maximum of two threads will be stored in an array
 
 int main(){
